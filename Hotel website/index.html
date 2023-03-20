@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyHotel</title>
+
+
+    <!-- Bootstrap CDN Links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.1/css/bootstrap.min.css" />
+
+    <!-- Font Awesome CDN Links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- Custom File's Link -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+    <!--- Navbar section --->
+    <header class="header_wrapper">
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand text-white" href="index.html">
+                    <b>MY<i>HOTEL</i></b>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars-staggered text-white"></i>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav menu-navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="homeact"aria-current="page" href="#home">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#rooms">ROOMS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">CONTACT US</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--- Banner section --->
+    <section id="home" class="banner_wrapper p-0">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image: url(images/background.jpg)">
+                    <div class="slide-caption text-center">
+                        <div>
+                            <h1 >welcome to MyHotel</h1>
+                            <a href="#contact">
+                                <button class="btn btn-secondary">Contact us</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url(images/backgroundd.jpg)">
+                    <div class="slide-caption text-center">
+                        <div>
+                            <h1>welcome to myhotel</h1>
+                            <a href="#contact">
+                                <button class="btn btn-secondary">Book now</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- About section -->
+    <section id="about" class="about_wrapper">
+        <div class="col-sm-12 section-title text-center mb-5">
+            <h3>About Us</h3>
+            <hr class="linee">
+          </div>
+        <div class="container">
+            <div class="row flex-lg-row flex-column-reverse">
+                <div class="col-lg-6 text-center text-lg-start">
+                    <h3>Welcome to
+                        <span>MyHotel <br class="d-none d-lg-block" /></span>
+            </h3>
+            <p>
+              Quibusdam non illo minus vero rem. Saepe reiciendis, minima
+              numquam pariatur ducimus, cupiditate ratione error minus expedita
+              at. Quibusdam, vitae animi possimus eaque sunt ad.Quisquam nemo
+              nobis laborum aliquam magnam tempora amet neque aspernatur
+              explicabo.
+            </p>
+            <p>
+              Lorem minima odio quos fugit culpa. Expedita asperiores sapiente,
+              culpa vero ullam dolor fuga et dolore fugiat ad laudantium ipsa!
+            </p>
+          </div>
+          <div class="col-lg-6 mb-4 mb-lg-0 ps-lg-4 text-center">
+            <img src="images/about.webp" alt="about" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+ <!-- Rooms section -->
+    <section id="rooms">
+        <div class="row">
+            <div class="col-sm-12 section-title text-center mb-5">
+              <h3 class="text-white">Our Rooms</h3>
+              <hr class="line">
+            </div>
+          </div>
+        <hr>
+            <div class="row">
+              <div class="rooms-column col-lg-4 col-md-6">
+                <div class="card">
+                  <div class="card-header">
+              
+                  <img class="rooms-image" src="images/room1.jpg" alt="p1" height="200px" width="300px">
+                  </div>
+                  <div class="card-body">
+                 <h2>Couple Room</h2>
+                 <p>$150.00 / per night</p>
+                 <button class="btn btn-secondary">Book now</button>
+                  </div>
+                </div>
+              </div>
+        
+                <div class="rooms-column col-lg-4 col-md-6">
+                <div class="card">
+                  <div class="card-header">
+              
+                  <img class="rooms-image" src="images/room2.jpeg" alt="p1" height="200px" width="300px">
+                  </div>
+                  <div class="card-body">
+                 <h2>Family Room</h2>
+                 <p>$200.00 / per night</p>
+                 <button class="btn btn-secondary">Book now</button>
+                  </div>
+                </div>
+              </div>
+              
+                 <div class="rooms-column col-lg-4 col-md-6">
+                <div class="card">
+                  <div class="card-header">
+              
+                  <img class="rooms-image" src="images/room3.jpg" alt="p1" height="200px" width="300px">
+                  </div>
+                  <div class="card-body">
+                 <h2>Single Room</h2>
+                 <p>$155.00 / per night</p>
+                 <button class="btn btn-secondary">Book now</button>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+        </section>
+
+         <!-- Footer section -->
+        <section id="contact" class="footer_wrapper mt-3 mt-md-0 pb-0">
+            <div class="container pb-3">
+                <div class="row">
+                    <div class="col-lg-6 col-md-4">
+                        <h5>Contact us</h5>
+                        <div class="contact-info">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        <i class="fa fa-home me-3"></i>Kathmandu, Nepal
+                                    </a>
+                                </li>
+                                <li>
+                                <a href="javascript:void(0)">
+                                    <i class="fa fa-phone me-3"></i>+977-9800000000
+                                </a>
+                                </li>
+                                <li>
+                                <a href="javascript:void(0)"><i class="fa fa-envelope me-3">
+
+                                </i>abc@gmail.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                        <div class="col-lg-3 col-md-4">
+                            <h5>Send mail</h5>
+                            <div class="form-group mb-4">
+                                <input type="email" class="form-control bg-transparent" placeholder="Your email" /> <br/>
+                                <button type="submit" class="btn btn-secondary">Send</button>
+                            </div>
+                            <h5>Follow us</h5>
+                            <ul class="social-network d-flex align-items-center p-0">
+                                <li>
+                                    <a href="javascript:void(0)"><i class="fab fa-facebook-f"></i
+                    ></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)"><i class="fab fa-twitter"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-fluid copyright-section">
+                    <p>
+                        Copyright <a href="javascript:void(0)">©anjila</a> All Rights Reserved
+                    </p>
+                </div>
+        </section>
+
+
+
+    <!-- Bootstrap JS CDN Links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.1/js/bootstrap.min.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Custom JS Links -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
